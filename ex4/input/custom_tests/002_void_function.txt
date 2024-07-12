@@ -1,0 +1,7 @@
+void foo() {
+  PrintInt(3);
+}
+
+void main() {
+  foo();
+}

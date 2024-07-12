@@ -1,0 +1,16 @@
+class Animal {
+  void foo() {
+    PrintString("Foo020");
+  }
+}
+
+class Dog extends Animal {
+  void foo() {
+    PrintString("Bar020");
+  }
+}
+
+void main() {
+  Dog dog := new Dog;
+  dog.foo();
+}

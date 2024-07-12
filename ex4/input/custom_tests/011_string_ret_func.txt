@@ -1,0 +1,7 @@
+string foo() {
+  return "Hi011";
+}
+
+void main() {
+  PrintString(foo());
+}

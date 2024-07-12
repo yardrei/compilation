@@ -1,0 +1,17 @@
+void main() {
+    string name1 := "a12";
+    string name2 := "a12";
+    string name3 := "b12";
+
+    if (name1 = name2) {
+        PrintString("a12EQa12");
+    }
+
+    if (name1 = name3) {
+        PrintString("a12EQb12");
+    }
+
+    if (1 - (name1 = name3)) {
+        PrintString("a12NotEQb12");
+    }
+}

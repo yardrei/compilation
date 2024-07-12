@@ -1,0 +1,16 @@
+array IntArray = int[];
+
+void main() {
+    IntArray intArray1 := new int[5];
+    IntArray intArray2 := new int[5];
+    IntArray intArray3 := intArray1;
+
+    PrintString("intArray1EQintArray1");
+    PrintInt(intArray1 = intArray1);
+
+    PrintString("intArray1EQintArray2");
+    PrintInt(intArray1 = intArray2);
+
+    PrintString("intArray1EQintArray3");
+    PrintInt(intArray1 = intArray3);
+}

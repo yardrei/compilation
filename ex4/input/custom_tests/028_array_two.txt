@@ -1,0 +1,12 @@
+array IntArray1 = int[];
+array IntArray2 = int[];
+
+void main() {
+    IntArray1 intArray1 := new int[5];
+    IntArray2 intArray2 := new int[5];
+
+    intArray1[0] := 28;
+    intArray2[3] := intArray1[0];
+
+    PrintInt(intArray2[3]);
+}

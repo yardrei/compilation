@@ -1,0 +1,17 @@
+class Person {
+  int id := 8;
+
+  int foo() {
+    return id;
+  }
+}
+
+int foo() {
+  return -8;
+}
+
+void main() {
+  PrintInt(foo());
+  Person person := new Person;
+  PrintInt(person.foo());
+}

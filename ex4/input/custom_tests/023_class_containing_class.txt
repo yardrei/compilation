@@ -1,0 +1,15 @@
+class A {
+  int a := 2;
+}
+
+class B {
+  A a := nil;
+}
+
+void main() {
+  B b := new B;
+  b.a := new A;
+  PrintInt(b.a.a);
+  b.a.a := 3;
+  PrintInt(b.a.a);
+}

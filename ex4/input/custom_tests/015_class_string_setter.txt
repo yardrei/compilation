@@ -1,0 +1,17 @@
+class Person {
+  string name;
+
+  string getName() {
+    return name;
+  }
+
+  void setName(string newName) {
+    name := newName;
+  }
+}
+
+void main() {
+  Person person := new Person;
+  person.setName("JohnDoe015");
+  PrintString(person.getName());
+}

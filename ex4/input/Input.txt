@@ -1,0 +1,13 @@
+class Person {
+  int id;
+}
+
+class Student extends Person {
+  int age;
+}
+
+void main() {
+  Student student := new Student;
+  student.id := 10;
+  PrintInt(student.id);
+}

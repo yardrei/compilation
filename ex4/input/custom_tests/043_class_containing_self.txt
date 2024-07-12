@@ -1,0 +1,13 @@
+class A {
+    A a;
+    int val := 10;
+}
+
+void main() {
+    A a := new A;
+    a.a := a;
+    PrintInt(a.a.a.a.a.a.a.a.val);
+    a.a.a.a.a.a.a.a.a.a.a.a.a.a.val := 20;
+    PrintInt(a.val);
+    PrintInt(a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.val);
+}

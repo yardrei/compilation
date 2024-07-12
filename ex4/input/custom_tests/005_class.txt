@@ -1,0 +1,9 @@
+class Person {
+  int id;
+}
+
+void main() {
+  Person person := new Person;
+  person.id := 5;
+  PrintInt(person.id);
+}

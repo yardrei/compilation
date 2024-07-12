@@ -1,0 +1,10 @@
+void main() {
+    int a := 10;
+
+    if(a > 10) {
+        PrintString("aGT10false");
+    }
+    if(a = 10) {
+        PrintString("aEQ10true");
+    }
+}

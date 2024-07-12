@@ -1,0 +1,10 @@
+int recFoo(int a) {
+    if(a = 5) {
+        return a;
+    }
+    return recFoo(a + 1);
+}
+
+void main() {
+    PrintInt(recFoo(0));
+}

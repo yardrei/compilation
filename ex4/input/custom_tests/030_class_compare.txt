@@ -1,0 +1,61 @@
+class B {
+    int ID;
+}
+
+class A extends B{
+    int ID;
+}
+
+void main() {
+    int a := 0;
+    A a1 := new A;
+    A a2 := new A;
+    A a3 := a1;
+    B b1 := new B;
+    B b2 := a1;
+
+    PrintString("a1EQa1");
+    a := a1 = a1;
+    if (a) {
+        PrintString("true");
+    }
+    if (1-a) {
+        PrintString("false");
+    }
+
+    PrintString("a1EQa2");
+    a := a1 = a2;
+    if (a) {
+        PrintString("false");
+    }
+    if (1-a) {
+        PrintString("true");
+    }
+
+    PrintString("a1EQa3");
+    a := a1 = a3;
+    if (a) {
+        PrintString("true");
+    }
+    if (1-a) {
+        PrintString("false");
+    }
+
+    PrintString("a1EQb1");
+    a := a1 = b1;
+    if (a) {
+        PrintString("false");
+    }
+    if (1-a) {
+        PrintString("true");
+    }
+
+    PrintString("a1EQb2");
+    a := a1 = b2;
+    if (a) {
+        PrintString("true");
+    }
+    if (1-a) {
+        PrintString("false");
+    }
+}

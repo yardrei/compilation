@@ -1,0 +1,16 @@
+class Person {
+  Person partner := nil;
+  string name;
+}
+
+void main() {
+  Person p1 := new Person;
+  p1.name := "Adam016";
+  Person p2 := new Person;
+  p2.name := "Steve016";
+  p1.partner := p2;
+  p2.partner := p1;
+
+  PrintString(p1.partner.name);
+  PrintString(p2.partner.name);
+}

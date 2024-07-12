@@ -1,0 +1,9 @@
+array IntArray = int[];
+
+void main() {
+    IntArray intArray := new int[5];
+
+    intArray[1] := 10;
+
+    intArray[6] := 10;
+}

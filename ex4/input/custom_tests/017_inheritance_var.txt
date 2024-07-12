@@ -1,0 +1,12 @@
+class Animal {
+  string name := "Animal017";
+}
+
+class Dog extends Animal {
+  string owner;
+}
+
+void main() {
+  Dog dog := new Dog;
+  PrintString(dog.name);
+}

@@ -1,0 +1,24 @@
+class A {
+    int a;
+    string b;
+}
+
+array ClassArray = A[];
+
+void main() {
+    ClassArray classArray := new A[5];
+
+    classArray[0] := new A;
+    classArray[4] := new A;
+
+    classArray[0].a := 10;
+    classArray[0].b := "blah10";
+    classArray[4].a := 14;
+    classArray[4].b := "blah14";
+
+    PrintInt(classArray[0].a);
+    PrintString(classArray[0].b);
+
+    PrintInt(classArray[4].a);
+    PrintString(classArray[4].b);
+}

@@ -1,0 +1,9 @@
+class Person {
+  string name;
+}
+
+void main() {
+  Person person := new Person;
+  person.name := "bob013";
+  PrintString(person.name);
+}

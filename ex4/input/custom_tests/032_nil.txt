@@ -1,0 +1,13 @@
+class A {
+    int ID;
+}
+
+array IntArray = int[];
+
+void main() {
+    A a := nil;
+
+    IntArray intArray := nil;
+
+    a.ID := 10;
+}

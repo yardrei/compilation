@@ -1,0 +1,6 @@
+void main(){
+    string str1 := "hello";
+    string str2 := "world";
+
+    PrintString(str1+str2);
+}

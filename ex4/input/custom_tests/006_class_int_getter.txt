@@ -1,0 +1,12 @@
+class Person {
+  int id := 6;
+
+  int getId() {
+    return id;
+  }
+}
+
+void main() {
+  Person person := new Person;
+  PrintInt(person.getId());
+}

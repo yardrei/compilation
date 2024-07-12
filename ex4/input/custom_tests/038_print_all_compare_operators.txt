@@ -1,0 +1,33 @@
+void main() {
+    //Less than with no operation
+    PrintString("0LT1");
+    PrintInt(0 < 1);
+    PrintString("1LT1");
+    PrintInt(1 < 1);
+    PrintString("10LT1");
+    PrintInt(10 < 1);
+    //Equal with no operation
+    PrintString("9EQ9");
+    PrintInt(9 = 9);
+    PrintString("0EQ1");
+    PrintInt(0 = 1);
+    PrintString("10EQ1");
+    PrintInt(10 = 1);
+    //Greater than with no operation
+    PrintString("9GT9");
+    PrintInt(9 > 9);
+    PrintString("0GT1");
+    PrintInt(0 > 1);
+    PrintString("10GT1");
+    PrintInt(10 > 1);
+    //Operation left
+    PrintString("9P1GT1");
+    PrintInt(9 + 1 > 9);
+    PrintString("0M1GT1");
+    PrintInt(0 - 1 > 1);
+    //Operation right
+    PrintString("10GT1P5");
+    PrintInt(10 > 1 + 5);
+    PrintString("10GT5P10");
+    PrintInt(10 > 5 + 10);
+}

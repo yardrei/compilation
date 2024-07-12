@@ -1,0 +1,17 @@
+class Person {
+  int id := -1;
+
+  int getId() {
+    return id;
+  }
+
+  void setId(int newId) {
+    id := newId;
+  }
+}
+
+void main() {
+  Person person := new Person;
+  person.setId(7);
+  PrintInt(person.getId());
+}

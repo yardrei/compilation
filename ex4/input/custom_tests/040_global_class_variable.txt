@@ -1,0 +1,14 @@
+class A {
+    int ID;
+}
+
+A a = new A;
+
+void foo() {
+    a.ID := 10
+}
+
+void main() {
+    foo();
+    PrintInt(a.ID);
+}

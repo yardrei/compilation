@@ -1,0 +1,17 @@
+array StringArray = string[];
+
+void main() {
+    StringArray stringArray := new string[5];
+
+    stringArray[0] := "blah10";
+    stringArray[1] := "blah11";
+    stringArray[2] := "blah12";
+    stringArray[3] := "blah13";
+    stringArray[4] := "blah14";
+
+    PrintString(stringArray[0]);
+    PrintString(stringArray[1]);
+    PrintString(stringArray[2]);
+    PrintString(stringArray[3]);
+    PrintString(stringArray[4]);
+}
